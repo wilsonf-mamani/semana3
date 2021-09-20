@@ -1,0 +1,57 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header{
+    background-color: black;
+}
+
+.titulo{
+    width: 90%;
+    height: 250px;
+
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+}
+
+h1,h4{
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    color: gray;
+    width: 200px;
+}
+
+.contenedor{ 
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color:black;
+    background-color: gainsboro;
+}
+
+
+.cajas{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+}
+
+
+.imagen{
+    height: 250px;
+    width: 230px;
+}
